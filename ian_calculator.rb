@@ -49,11 +49,11 @@
     elsif operation == 4
       puts number1 / number2.to_f
     else
-      puts "Please choose a number to actice the operation"
+      puts "Please choose a number to active the operation"
     end
 
     puts "Do you want to count something again? (y/n)"
-   end while gets.chomp.downcase != "n"
+   end until gets.chomp.downcase == "n"
  
 #Finally ,I figured it out...
 
